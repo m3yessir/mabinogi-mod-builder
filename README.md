@@ -27,10 +27,6 @@ Mooncrest checks for published mod and app updates at startup and periodically w
 
 App updates are staged and applied when you reopen Mooncrest with Mabinogi and Rua closed. Updated mod data must be rebuilt and applied to update the installed package. Normal app updates preserve local settings and backups in the **Data** folder.
 
-### Moving from 0.6.0–0.6.2
-
-Extract **0.6.3 into a new folder** to receive the revised maintenance bootstrap as well as the app files, then set up your game folder again. Do not copy older Rua helpers or updater caches into the new copy. Do not restore quarantined files or disable antivirus.
-
 ## Credits
 
 - **m3yessir** — Mooncrest and exclusive mod releases. The name is inspired by Tiara Moonshine.
