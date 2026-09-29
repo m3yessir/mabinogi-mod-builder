@@ -1,6 +1,6 @@
 # Mooncrest
 
-**Mabinogi Mod Builder** · Built with **mabi-pack2** · Optional launcher integration powered by **Rua**
+**Mabinogi Mod Builder with an adjustable FOV slider** · Built with **mabi-pack2** · Optional launcher integration powered by **Rua**
 
 Choose your mods, adjust your FOV, and apply them together in one `.it` package. Mooncrest includes an Installed tab for reviewing and removing packages, saved selections, and optional Nexon account linking through Rua.
 
