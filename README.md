@@ -6,6 +6,8 @@ Choose your mods, adjust your FOV, and apply them together in one `.it` package.
 
 ## Download
 
+**Bundled mods:** Mooncrest 0.7.0 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
+
 ### [Download Mooncrest 0.7.0 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.0-beta/Mooncrest-0.7.0.zip)
 
 [Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.0-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
