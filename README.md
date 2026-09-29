@@ -38,4 +38,4 @@ Full credits, mod documentation, and dependency notices are included in **CREDIT
 
 No personal account profiles, credentials, saved user settings, or logs are included in the release download. Mooncrest remains a beta and an unofficial fan project, unaffiliated with Nexon.
 <img width="1040" height="938" alt="image" src="https://github.com/user-attachments/assets/03adb4b4-ae6c-4547-9db3-416c96042a35" />
-<img width="1035" height="934" alt="image" src="https://github.com/user-attachments/assets/20b94509-6c80-4147-a399-9d94a23c2700" />
+<img width="1029" height="934" alt="image" src="https://github.com/user-attachments/assets/1a96bd2b-a3f2-47e6-87ee-c0c21c8321c9" />
