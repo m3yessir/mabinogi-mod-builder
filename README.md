@@ -1,19 +1,43 @@
 # Mooncrest
-**Mod Builder · Powered by Rua**
 
-Build and apply your selected Mabinogi mods in one package, with an adjustable FOV and an Installed tab for reviewing packages.
+**Mabinogi Mod Builder · Powered by Rua**
+
+Choose your mods, adjust your FOV, and apply them together in one `.it` package. Mooncrest includes an Installed tab for reviewing and removing packages, saved selections, and optional Nexon account linking through Rua.
 
 ## Download
-[Download Mooncrest v0.6.0 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.6.0-beta). Choose **Mooncrest-0.6.0.zip**, extract the entire folder, and run **Mooncrest.exe**.
+
+### [Download Mooncrest 0.6.3 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.6.3-beta/Mooncrest-0.6.3.zip)
+
+[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.6.3-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
+
+Download **Mooncrest-0.6.3.zip** and extract the entire folder. The `mooncrest-app` and `builder-data` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
 
 ## Getting started
-1. Choose Nexon, Steam, or Custom and select your Mabinogi folder.
-2. Optionally connect Nexon to update and launch the game through Rua. Steam users update and launch through Steam.
-3. Select your mods and click **Apply mods** with the game closed.
 
-Mooncrest checks for mod and app updates. App updates install when you reopen it with Mabinogi and Rua closed. Keep your **Data** folder to preserve local settings and backups.
+1. Extract Mooncrest into a folder you can write to, outside Mabinogi’s `package` folder. Keep the extracted files together.
+2. Open **Mooncrest.exe** normally.
+3. Choose **Nexon**, **Steam**, or **Custom**, then select your Mabinogi installation folder. Mooncrest locates its package folder.
+4. If you use Nexon, optionally connect your account to check game updates and launch through Rua. You can skip linking to use the mod builder. Steam users update and launch through Steam.
+5. With Mabinogi closed, select your mods, optionally enable **Global FOV Override**, then click **Apply mods**.
+6. For a linked Nexon installation, click **Play Mabinogi** and approve the Windows administrator prompt for Rua. Mooncrest itself runs normally. Cancelling the prompt cancels launch.
+
+## Updates
+
+Mooncrest checks for published mod and app updates at startup and periodically while idle. You can also use **Check for game update** and **Check for mods update**. Game updates and Mooncrest updates are separate.
+
+App updates are staged and applied when you reopen Mooncrest with Mabinogi and Rua closed. Updated mod data must be rebuilt and applied to update the installed package. Normal app updates preserve local settings and backups in the **Data** folder.
+
+### Moving from 0.6.0–0.6.2
+
+Extract **0.6.3 into a new folder** to receive the revised maintenance bootstrap as well as the app files, then set up your game folder again. Do not copy older Rua helpers or updater caches into the new copy. Do not restore quarantined files or disable antivirus.
 
 ## Credits
-Created by **m3yessir**. Rua by [Rii / riistar](https://github.com/riistar/Rua), included with permission. Modified Rua source changes are provided in **Rua-changes.patch** with the release.
 
-Includes credited [Uiscias](https://github.com/Root50199/Uiscias) mods and [mabi-pack2](https://github.com/shaggyze/mabi-pack2) tooling. Full credits and dependency notices are included in the download. Unofficial fan project.
+- **m3yessir** — Mooncrest and exclusive mod releases. The name is inspired by Tiara Moonshine.
+- **[Rii / riistar — Rua](https://github.com/riistar/Rua)** — optional Nexon sign-in, game updating, and launching. Included with the author’s permission. Mooncrest includes a modified helper, not an official Rua release. Changes are provided as **Rua-changes.md** and **Rua-changes.patch** on the release page.
+- **[Root50199 and Uiscias contributors](https://github.com/Root50199/Uiscias)** — credited mod groups and variants, with original authors and documentation included.
+- **[regomne](https://github.com/regomne/mabi-pack2) and [ShaggyZE](https://github.com/shaggyze/mabi-pack2)** — mabi-pack2 archive tooling.
+
+Full credits, mod documentation, and dependency notices are included in **CREDITS.md**, **docs**, and **tools**.
+
+No personal account profiles, credentials, saved user settings, or logs are included in the release download. Mooncrest remains a beta and an unofficial fan project, unaffiliated with Nexon.
