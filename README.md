@@ -6,11 +6,13 @@ Choose your mods, adjust your FOV, and apply them together in one `.it` package.
 
 ## Download
 
-### [Download Mooncrest 0.6.3 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.6.3-beta/Mooncrest-0.6.3.zip)
+### [Download Mooncrest 0.7.0 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.0-beta/Mooncrest-0.7.0.zip)
 
-[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.6.3-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
+[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.0-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
 
-Download **Mooncrest-0.6.3.zip** and extract the entire folder. The `mooncrest-app` and `builder-data` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
+Download **Mooncrest-0.7.0.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
+
+**Upgrading from 0.6.3 or earlier?** Download the full ZIP once and extract it into a **new folder**. Version 0.7.0 adds the signature verifier needed for signed updates; the older updater cannot install that verifier. Complete setup in the new folder and use **Use saved account** if you already have a Rua profile. Future compatible updates use the signed updater.
 
 ## Getting started
 
@@ -26,6 +28,21 @@ Download **Mooncrest-0.6.3.zip** and extract the entire folder. The `mooncrest-a
 Mooncrest checks for published mod and app updates at startup and periodically while idle. You can also use **Check for game update** and **Check for mods update**. Game updates and Mooncrest updates are separate.
 
 App updates are staged and applied when you reopen Mooncrest with Mabinogi and Rua closed. Updated mod data must be rebuilt and applied to update the installed package. Normal app updates preserve local settings and backups in the **Data** folder.
+
+### Signed updates
+
+Starting with 0.7.0, Mooncrest verifies a digital signature before accepting app or mod-data updates. App signatures are checked again before installation. Updates with missing or invalid signatures are rejected. Only the public verification key is included in the download; the publisher’s private signing key is not distributed.
+
+These update signatures are separate from Windows executable signing. They help reject unauthorized updates, but do not guarantee that software is vulnerability-free or protect a compromised Windows account.
+
+## Managing your saved Nexon account
+
+In the Nexon connection window:
+
+- **Unlink** disconnects the account from Mooncrest while keeping Rua’s saved login.
+- **Remove saved account** asks for confirmation, then deletes the selected local Rua credential and profile. This also affects standalone Rua using that profile on the same Windows account. You will need to sign in again to use it.
+
+Removal does not delete your Nexon account, revoke sessions on Nexon’s servers, or clear browser cookies. Account linking remains optional.
 
 ## Credits
 
