@@ -49,7 +49,7 @@ Removal does not delete your Nexon account, revoke sessions on Nexon’s servers
 ## Credits
 
 - **m3yessir** — Mooncrest and exclusive mod releases. The name is inspired by Tiara Moonshine.
-- **[Rii / riistar — Rua](https://github.com/riistar/Rua)** — optional Nexon sign-in, game updating, and launching. Included with the author’s permission. Mooncrest includes a modified helper, not an official Rua release. Changes are provided as **Rua-changes.md** and **Rua-changes.patch** on the release page.
+- **[Rii / riistar — Rua](https://github.com/riistar/Rua)** — optional Nexon sign-in, game updating, and launching. Included with the author’s permission. [Rua v1.6.2](https://github.com/riistar/Rua/releases/tag/v1.6.2) incorporated ticket-communication security improvements contributed by **m3yessir / Mooncrest**, with credit in its release notes. Mooncrest 0.7.0 bundles its own tested, modified Rua helper; it is not the official Rua v1.6.2 binary. The bundled helper’s changes are provided as **Rua-changes.md** and **Rua-changes.patch** on the Mooncrest release page.
 - **[Root50199 and Uiscias contributors](https://github.com/Root50199/Uiscias)** — credited mod groups and variants, with original authors and documentation included.
 - **[regomne](https://github.com/regomne/mabi-pack2) and [ShaggyZE](https://github.com/shaggyze/mabi-pack2)** — mabi-pack2 archive tooling.
 
