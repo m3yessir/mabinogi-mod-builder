@@ -14,8 +14,6 @@ Choose your mods, adjust your FOV, and apply them together in one `.it` package.
 
 Download **Mooncrest-0.7.1.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
 
-**Upgrading from 0.6.3 or earlier?** Download the full ZIP once and extract it into a **new folder**. Version 0.7.0 adds the signature verifier needed for signed updates; the older updater cannot install that verifier. Complete setup in the new folder and use **Use saved account** if you already have a Rua profile. Future compatible updates use the signed updater.
-
 ## What’s new in 0.7.1
 
 - **Expanded indoor FOV:** the slider now covers 255 fixed indoor regions, including Tara Castle, the Arcana Association room, the Great Hall, and Guild Hall. Outdoor coverage is retained, with 63 room-variation files added for supported interiors.
