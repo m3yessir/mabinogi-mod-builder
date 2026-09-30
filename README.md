@@ -21,7 +21,7 @@ Download **Mooncrest-0.7.1.zip** and extract the entire folder. The `mooncrest-a
 - **Update-ready popup:** Mooncrest now alerts you when a newer app version has downloaded and is ready to install after a restart.
 - **Compatible mod combinations:** supported overlapping zoom and declutter mods keep their selected changes when the FOV override is applied.
 
-Generated dungeon floors are not covered, and some included interiors have not been individually tested in game. The FOV feature uses `.it` packages and does not inject a DLL. If you used a standalone indoor or Guild Hall FOV test package, remove that test package before applying the integrated version.
+Generated dungeon floors are not covered, and some included interiors have not been individually tested in game. The FOV feature uses `.it` packages and does not inject a DLL.
 
 ### Already using 0.7.0?
 
