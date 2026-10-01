@@ -6,15 +6,24 @@ Choose your mods, adjust your FOV, and apply them together in one `.it` package.
 
 ## Download
 
-**Bundled mods:** Mooncrest 0.7.5 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
+**Bundled mods:** Mooncrest 0.7.6 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
 
-### [Download Mooncrest 0.7.5 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.5-beta/Mooncrest-0.7.5.zip)
+### [Download Mooncrest 0.7.6 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.6-beta/Mooncrest-0.7.6.zip)
 
-[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.5-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
+[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.6-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
 
-Download **Mooncrest-0.7.5.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
+Download **Mooncrest-0.7.6.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
 
-## What’s new in 0.7.5
+## What’s new in 0.7.6
+
+- **Backup storage:** automatically retain two mod undo steps and clean eligible older app backups and update downloads. Use **Installed → Backup storage** to view usage or clean old backups. Pending recovery and unrecognized older folders are preserved.
+- **Responsive loading bar:** startup progress stays animated while Mooncrest opens, with elapsed time shown.
+- **Restart Mooncrest / Later:** once 0.7.6 is installed, future update-ready prompts can restart the app for you. Close Mabinogi and Rua first.
+- **Correct version label:** the title reads the installed app version automatically.
+
+After upgrading, close Mooncrest normally once after the updated app opens to finish the signed launcher upgrade. The first activation may still use your previous launcher. Mod data is unchanged from 0.7.5.
+
+## Main Title Hider (0.7.5)
 
 **Main Title Hider now covers family relationship labels, custom guild titles, and “the One with a Hunch who is,” while keeping character names visible.** Update your mod data, select Main Title Hider, and click **Apply mods** with Mabinogi closed.
 
@@ -26,6 +35,7 @@ If you tested a combined title-test package, remove it from the game’s package
 
 | Version | Highlights |
 | --- | --- |
+| [0.7.6](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.6-beta) | Backup cleanup, responsive startup progress, a restart button, and the correct version label. |
 | [0.7.5](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.5-beta) | Expanded Main Title Hider for family labels, custom guild titles, and the One with a Hunch title. |
 | [0.7.4](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.4-beta) | **Load selections** from a matching installed Mooncrest package, including its saved FOV settings. |
 | [0.7.3](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.3-beta) | Visible startup/update progress, quicker startup when no update is pending, and a signed launcher upgrade. |
@@ -65,7 +75,7 @@ Users upgrading from before 0.7.3 may still see one slow startup with the old la
 
 Mooncrest checks for published mod and app updates at startup and periodically while idle. You can also use **Check for game update**, **Check for mods update**, and **Check for app update**. Game updates and Mooncrest updates are separate.
 
-An update-ready popup appears when a newer app version has downloaded. App updates are applied when you reopen Mooncrest with Mabinogi and Rua closed. Updated mod data must be rebuilt and applied to update the installed package. Normal app updates preserve local settings and backups in the **Data** folder.
+An update-ready popup appears when a newer app version has downloaded. App updates are applied when you reopen Mooncrest with Mabinogi and Rua closed. Updated mod data must be rebuilt and applied to update the installed package. Normal app updates preserve local settings in the **Data** folder. Eligible backups follow the retention limits described above.
 
 ### Signed updates
 
