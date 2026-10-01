@@ -6,28 +6,51 @@ Choose your mods, adjust your FOV, and apply them together in one `.it` package.
 
 ## Download
 
-**Bundled mods:** Mooncrest 0.7.1 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
+**Bundled mods:** Mooncrest 0.7.5 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
 
-### [Download Mooncrest 0.7.1 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.1-beta/Mooncrest-0.7.1.zip)
+### [Download Mooncrest 0.7.5 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.5-beta/Mooncrest-0.7.5.zip)
 
-[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.1-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
+[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.5-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
 
-Download **Mooncrest-0.7.1.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
+Download **Mooncrest-0.7.5.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
 
-## What’s new in 0.7.1
+## What’s new in 0.7.5
 
-- **Expanded indoor FOV:** the slider now covers 255 fixed indoor regions, including Tara Castle, the Arcana Association room, the Great Hall, and Guild Hall. Outdoor coverage is retained, with 63 room-variation files added for supported interiors.
-- **Separate app-update button:** use **Check for app update** alongside the game and mod update buttons.
-- **Update-ready popup:** Mooncrest now alerts you when a newer app version has downloaded and is ready to install after a restart.
-- **Compatible mod combinations:** supported overlapping zoom and declutter mods keep their selected changes when the FOV override is applied.
+**Main Title Hider now covers family relationship labels, custom guild titles, and “the One with a Hunch who is,” while keeping character names visible.** Update your mod data, select Main Title Hider, and click **Apply mods** with Mabinogi closed.
 
-Generated dungeon floors are not covered, and some included interiors have not been individually tested in game. The FOV feature uses `.it` packages and does not inject a DLL.
+The family and custom guild title definitions are omitted locally to skip their special formatting. This may also affect those entries in the title-selection menu. Other special titles may remain. No DLL injection or executable patching is used for this mod.
 
-### Already using 0.7.0?
+If you tested a combined title-test package, remove it from the game’s package folder before applying your normal selections. The public title mod does not include the test bundle’s other selected mods or FOV settings.
 
-**You do not need to download the full ZIP again.** Close Mabinogi and Rua, open Mooncrest, and let its startup check finish. You can also click **Check for mods update** in 0.7.0, which checks for app updates too. When the status says the update is downloaded, close and reopen Mooncrest, then click **Apply mods** to use the expanded FOV coverage.
+## Recent releases
 
-The new app-update button and popup become available after installing 0.7.1; 0.7.0 displays its update notice in the status area.
+| Version | Highlights |
+| --- | --- |
+| [0.7.5](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.5-beta) | Expanded Main Title Hider for family labels, custom guild titles, and the One with a Hunch title. |
+| [0.7.4](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.4-beta) | **Load selections** from a matching installed Mooncrest package, including its saved FOV settings. |
+| [0.7.3](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.3-beta) | Visible startup/update progress, quicker startup when no update is pending, and a signed launcher upgrade. |
+| [0.7.2](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.2-beta) | Clear restart instructions when an update is already downloaded, instead of a conflicting manual-download message. |
+| [0.7.1](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.1-beta) | Expanded indoor FOV, a separate app-update button, update-ready alerts, and compatible overlapping FOV/declutter changes. |
+
+See [all release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases) for details.
+
+## Adjustable FOV
+
+The slider covers supported outdoor maps and **255 fixed indoor regions**, including Tara Castle, the Arcana Association room, the Great Hall, and Guild Hall, with 63 room-variation files for supported interiors. Supported overlapping zoom and declutter mods keep their selected changes when the FOV override is applied.
+
+Generated dungeon floors are not covered, and some included interiors have not been individually tested in game. The FOV feature uses .it packages and does not inject a DLL.
+
+## Restore an installed package’s selections
+
+Open **Installed**, select a matching Mooncrest-installed .it package, and click **Load selections**. Mooncrest restores its saved mod checkboxes and FOV settings, then opens the Mods tab. This replaces your current selections; nothing is installed until you click **Apply mods**.
+
+The package must match its saved installation record in that Mooncrest installation. Unknown or changed files, copied packages without a matching record, missing mods, and invalid FOV records cannot restore selections.
+
+### Already using 0.7.x?
+
+**You do not need to download the full ZIP again.** Close Mabinogi and Rua, use **Check for app update**, and close and reopen Mooncrest when prompted. In 0.7.0, use its combined **Check for mods update** or the startup check. After updating mod data, click **Apply mods** with the game closed to rebuild your selected package.
+
+Users upgrading from before 0.7.3 may still see one slow startup with the old launcher. Once the updated app opens, close it normally once so the launcher upgrade can finish; subsequent launches show progress. Avoid repeatedly clicking the shortcut while it starts. Users on 0.6.x need a fresh full download for signed-update support.
 
 ## Getting started
 
@@ -42,7 +65,7 @@ The new app-update button and popup become available after installing 0.7.1; 0.7
 
 Mooncrest checks for published mod and app updates at startup and periodically while idle. You can also use **Check for game update**, **Check for mods update**, and **Check for app update**. Game updates and Mooncrest updates are separate.
 
-In 0.7.1, an update-ready popup appears when a newer app version has downloaded. App updates are applied when you reopen Mooncrest with Mabinogi and Rua closed. Updated mod data must be rebuilt and applied to update the installed package. Normal app updates preserve local settings and backups in the **Data** folder.
+An update-ready popup appears when a newer app version has downloaded. App updates are applied when you reopen Mooncrest with Mabinogi and Rua closed. Updated mod data must be rebuilt and applied to update the installed package. Normal app updates preserve local settings and backups in the **Data** folder.
 
 ### Signed updates
 
