@@ -6,15 +6,24 @@ Choose your mods, adjust your FOV, and apply them together in one `.it` package.
 
 ## Download
 
-**Bundled mods:** Mooncrest 0.7.7 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
+**Bundled mods:** Mooncrest 0.7.8 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
 
-### [Download Mooncrest 0.7.7 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.7-beta/Mooncrest-0.7.7.zip)
+### [Download Mooncrest 0.7.8 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.8-beta/Mooncrest-0.7.8.zip)
 
-[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.7-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
+[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.8-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
 
-Download **Mooncrest-0.7.7.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
+Download **Mooncrest-0.7.8.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
 
-## What’s new in 0.7.7
+## What’s new in 0.7.8
+
+- **Expanded FOV coverage:** 25 Tara camera/region files plus 79 additional files across 24 map folders, including Falias, Avon, Belfast/Scathach, Iria, and Uladh story/event variations. The FOV package now contains 605 files.
+- **Uses your FOV slider:** the expanded test package was confirmed working at 110 FOV; release builds were checked at 60, 110, and 120. Not every map variation was individually tested.
+- **Existing users:** update through Mooncrest, restart when prompted, then **Apply mods** with Mabinogi closed. No fresh full ZIP is required for 0.7.x users.
+- **Test users:** remove `mooncrestTaraShadowFovTest_00001.it` and `mooncrestExpandedWorldFovTest_00001.it` before applying your normal build.
+
+Some changes apply to shared ordinary, story, and event maps. Generated dungeon floors and special/cutscene cameras remain outside confirmed coverage; this is not whole-game support.
+
+## Previous update: 0.7.7
 
 - **Tailteann shadow-mission FOV:** seven map-camera variations and the southeast region now follow your FOV slider. The 110 FOV test was confirmed working in game; not every mission was individually tested.
 - **Existing users:** check for app/mod updates in Mooncrest, restart when prompted, then **Apply mods** with Mabinogi closed. No new full ZIP is required for 0.7.x users.
@@ -43,6 +52,7 @@ If you tested a combined title-test package, remove it from the game’s package
 
 | Version | Highlights |
 | --- | --- |
+| [0.7.8](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.8-beta) | Tara shadow and expanded world/story/event FOV coverage; 104 added camera/region files. |
 | [0.7.7](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.7-beta) | Tailteann shadow-mission camera variations and southeast-region FOV slider coverage. |
 | [0.7.6](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.6-beta) | Backup cleanup, responsive startup progress, a restart button, and the correct version label. |
 | [0.7.5](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.5-beta) | Expanded Main Title Hider for family labels, custom guild titles, and the One with a Hunch title. |
