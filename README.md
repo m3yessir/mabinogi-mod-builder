@@ -22,8 +22,6 @@ Download **Mooncrest-0.7.9.zip** and extract the entire folder. The `mooncrest-a
 - **Existing users:** use **Check for app update**, close Mabinogi and Rua, then restart Mooncrest when prompted. Sign in again only if asked. Compatible 0.7.x installations do not need a fresh ZIP.
 - **Mods unchanged:** the existing packages and expanded FOV coverage remain the same as 0.7.8.
 
-Synthetic security checks and a signed updater installation test passed; the maintainer reports the test build working. This is not an independent security audit or a guarantee of complete security.
-
 ## Previous update: 0.7.8
 
 - **Expanded FOV coverage:** 25 Tara camera/region files plus 79 additional files across 24 map folders, including Falias, Avon, Belfast/Scathach, Iria, and Uladh story/event variations. The FOV package now contains 605 files.
