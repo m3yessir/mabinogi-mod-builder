@@ -6,15 +6,29 @@ Choose your mods, adjust your FOV, and apply them together in one `.it` package.
 
 ## Download
 
-**Bundled mods:** Mooncrest 0.7.9 includes [Uiscias v1.65.0](https://github.com/Root50199/Uiscias/releases/tag/v1.65.0), plus Mooncrest’s exclusive mods.
+**Bundled mods:** Mooncrest 0.8.0 includes [Uiscias v1.66.0](https://github.com/Root50199/Uiscias/releases/tag/v1.66.0), plus Mooncrest’s exclusive mods.
 
-### [Download Mooncrest 0.7.9 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.7.9-beta/Mooncrest-0.7.9.zip)
+### [Download Mooncrest 0.8.0 beta](https://github.com/m3yessir/mabinogi-mod-builder/releases/download/v0.8.0-beta/Mooncrest-0.8.0.zip)
 
-[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.9-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
+[Release notes](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.8.0-beta) · [All releases](https://github.com/m3yessir/mabinogi-mod-builder/releases)
 
-Download **Mooncrest-0.7.9.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
+Download **Mooncrest-0.8.0.zip** and extract the entire folder. The `mooncrest-app-v2` and `builder-data-v2` files are updater assets; GitHub’s **Source code** ZIP is not the ready-to-run app.
 
-## What’s new in 0.7.9
+## What’s new in 0.8.0
+
+- **October 15 game-patch compatibility:** updated bundled mods to Uiscias v1.66.0 and refreshed Mooncrest’s title and brownie edits against the current game data. Existing FOV coverage is retained.
+- **Custom package names:** choose your own name without a Mooncrest prefix. Mooncrest adds `_00001.it` when needed and preserves a valid numbered suffix. Invalid Windows filenames and the reserved `data_` prefix are rejected.
+- **Clearer Apply confirmation:** review the exact filename and destination before replacing an existing package or installing a separate one. Other packages stay intact, and overlapping mods are blocked.
+- **Load selections:** restores the package filename along with its saved mod checkboxes and FOV settings.
+- **Reinstalling a package:** an old installation record no longer blocks reinstalling a package that was moved or removed.
+
+**After updating:** close Mabinogi and Rua, use **Check for app update**, and restart Mooncrest when prompted. Then click **Apply mods** to rebuild your installed package with the new mod data. Updating the app alone does not replace the old `.it` file. Compatible 0.7.x users can use the signed updater without downloading a fresh full ZIP.
+
+**October 15 test users:** move `mooncrestOctober15Test_00001.it` out of the game’s package folder before applying your normal build, so overlapping test mods are not left installed.
+
+Rua is unchanged from 0.7.9. This remains a beta; not every mod or map variation has been individually tested in game.
+
+## Previous update: 0.7.9
 
 - **Security update:** verified Nexon game updates over HTTPS, stronger checks around the bundled Rua helper and game launch, and unused browser-cookie extraction code removed.
 - **Account cleanup:** removing a saved account also clears the sign-in browser cookies; completed helper request files are cleaned up.
@@ -60,6 +74,7 @@ If you tested a combined title-test package, remove it from the game’s package
 
 | Version | Highlights |
 | --- | --- |
+| [0.8.0](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.8.0-beta) | October 15 game-patch compatibility, Uiscias v1.66.0, custom package names, and clearer replace/separate-install confirmation. |
 | [0.7.9](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.9-beta) | Rua security hardening, verified HTTPS game patching, account cleanup, and UI efficiency improvements. |
 | [0.7.8](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.8-beta) | Tara shadow and expanded world/story/event FOV coverage; 104 added camera/region files. |
 | [0.7.7](https://github.com/m3yessir/mabinogi-mod-builder/releases/tag/v0.7.7-beta) | Tailteann shadow-mission camera variations and southeast-region FOV slider coverage. |
@@ -80,11 +95,18 @@ Generated dungeon floors are not covered, and some included interiors have not b
 
 ## Restore an installed package’s selections
 
-Open **Installed**, select a matching Mooncrest-installed .it package, and click **Load selections**. Mooncrest restores its saved mod checkboxes and FOV settings, then opens the Mods tab. This replaces your current selections; nothing is installed until you click **Apply mods**.
+Open **Installed**, select a matching Mooncrest-installed .it package, and click **Load selections**. Mooncrest restores its package filename, saved mod checkboxes, and FOV settings, then opens the Mods tab. This replaces your current selections; nothing is installed until you click **Apply mods**.
 
 The package must match its saved installation record in that Mooncrest installation. Unknown or changed files, copied packages without a matching record, missing mods, and invalid FOV records cannot restore selections.
 
-### Already using 0.7.x?
+## Custom package names: replace or install separately
+
+Set **Package filename** under **Package & Export**. For example, `MyMods` becomes `MyMods_00001.it`. A name already ending in a valid numbered suffix, such as `MyMods_00002`, keeps that suffix.
+
+- **Replace an existing package:** load its selections or keep its existing filename. Review the replacement confirmation before applying.
+- **Install a separate package:** choose a different filename. Existing packages are kept; Mooncrest blocks overlapping mods rather than silently replacing another bundle.
+
+### Updating an existing installation
 
 **You do not need to download the full ZIP again.** Close Mabinogi and Rua, use **Check for app update**, and close and reopen Mooncrest when prompted. In 0.7.0, use its combined **Check for mods update** or the startup check. After updating mod data, click **Apply mods** with the game closed to rebuild your selected package.
 
