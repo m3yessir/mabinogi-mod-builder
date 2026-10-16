@@ -24,8 +24,6 @@ Download **Mooncrest-0.8.0.zip** and extract the entire folder. The `mooncrest-a
 
 **After updating:** close Mabinogi and Rua, use **Check for app update**, and restart Mooncrest when prompted. Then click **Apply mods** to rebuild your installed package with the new mod data. Updating the app alone does not replace the old `.it` file. Compatible 0.7.x users can use the signed updater without downloading a fresh full ZIP.
 
-**October 15 test users:** move `mooncrestOctober15Test_00001.it` out of the game’s package folder before applying your normal build, so overlapping test mods are not left installed.
-
 Rua is unchanged from 0.7.9. This remains a beta; not every mod or map variation has been individually tested in game.
 
 ## Previous update: 0.7.9
